@@ -25,3 +25,32 @@ let testObject = {
     console.log.bind(this)(this.name);
   },
 };
+
+class ElectricCar extends Car {
+  constructor(make, model, year, batteryLife) {
+    super(make, model, year);
+    this.batteryLife = batteryLife;
+  }
+  displayInfo() {
+    console.log(
+      `You own a ${this.make} ${this.model} from the year ${
+        this.year
+      }. The average battery life is ${"100 miles"}`
+    );
+  }
+}
+
+class Student {
+  constructor(name, age, grade) {
+    this.name = name;
+    this.age = age;
+    this.grade = grade;
+  }
+  stats() {
+    console.log(
+      `The students name is ${this.name} they are ${this.age} and in the ${this.grade}th grade`
+    );
+  }
+}
+
+let test1 = new Student("James", 18, 12);
