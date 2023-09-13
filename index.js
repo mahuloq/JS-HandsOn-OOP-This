@@ -51,6 +51,11 @@ class Student {
       `The students name is ${this.name} they are ${this.age} and in the ${this.grade}th grade`
     );
   }
+  logStats = () => {
+    console.log(
+      `The students name is ${this.name} they are ${this.age} and in the ${this.grade}th grade`
+    );
+  };
 }
-
+//this value inside a regular function is dynamic and depends on the invocation. But this inside the arrow function is bound lexically and equals to this of the outer function
 let test1 = new Student("James", 18, 12);
