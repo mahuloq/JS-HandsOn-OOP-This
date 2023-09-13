@@ -12,3 +12,16 @@ class Car {
     );
   }
 }
+
+let testObject = {
+  name: "John",
+  testFunc: function () {
+    console.log(this.name);
+  },
+  testArrow: () => {
+    console.log(this.name);
+  },
+  testArrowBind: () => {
+    console.log.bind(this)(this.name);
+  },
+};
