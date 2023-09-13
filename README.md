@@ -1,6 +1,6 @@
 1. Designed a class and a method to display info, no trouble.
 
-2. Crafted a function and used this. Here is were trouble starts, dont think we went over this nearly enough, instructor was unable to even use bind in class, and wasnt able to answer questions on bing and used call instead.
+2. Crafted a function and used this. Here is were trouble starts, dont think we went over this nearly enough, instructor was unable to even use bind in class, and wasnt able to answer questions on bind and used call instead.
 
 3. Designed Class, was able to extend class with Electric car changes.
 
